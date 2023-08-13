@@ -1,4 +1,4 @@
-
 function saludar() {
-    window.alert("Hola");
+    alert("Hola");
+    event.stopPropagation();
 }
